@@ -48,9 +48,9 @@ export function validateOptions(options) {
   if (options == null) {
     throw 'You must pass an options object';
   }
-  if (options.cluster == null) {
-    throw 'Options object must provide a cluster';
-  }
+  //if (options.cluster == null) {
+  //  throw 'Options object must provide a cluster';
+  //}
   if ('disableStats' in options) {
     Logger.warn(
       'The disableStats option is deprecated in favor of enableStats'
