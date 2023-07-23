@@ -62,7 +62,9 @@
     "webpack-merge": "^5.8.0",
     "xmlhttprequest": "^1.8.0",
     "@types/node": "^20.3.0",
-    "@types/express-serve-static-core": "4.17.28"
+    "@types/express-serve-static-core": "4.17.28",
+    "@craftzdog/react-native-buffer": "*",
+    "@react-native-community/netinfo": "*"
   },
   "dependencies": {
     "tweetnacl": "^1.0.3"
