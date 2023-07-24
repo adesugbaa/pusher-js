@@ -45,7 +45,7 @@ export interface Options {
 }
 
 export function validateOptions(options) {
-  Logger.warn('Validating options');
+  Logger.info('Validating options');
   
   if (options == null) {
     throw 'You must pass an options object';
