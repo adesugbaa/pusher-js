@@ -22,7 +22,7 @@ export interface Options {
   channelAuthorization?: ChannelAuthorizationOptions;
   userAuthentication?: UserAuthenticationOptions;
 
-  cluster: string;
+  cluster?: string;
   enableStats?: boolean;
   disableStats?: boolean;
   disabledTransports?: Transport[];
